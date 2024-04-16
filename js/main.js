@@ -15,7 +15,7 @@ var iglesia ={
     nombre: 'Parroquia San juan de los Lagos',
     direccion: 'Av. Lázaro Cárdenas s/n Col. Revolución Boca del Rio Ver',
     fecha:'18 de Mayo del 2024 a las 18:00',
-    url_image: '/img/iglesia.png',
+    url_image: '/img/iglesia.webp',
     url_mapa: 'https://maps.app.goo.gl/ZZvZmo84bhPQP4ar7'
 };
 var salon ={
