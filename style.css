@@ -1,11 +1,11 @@
 @media only screen and (max-width: 990px) {
   h1 {
-    font-size: 52px !important;
+    font-size: 7vh !important;
     font-weight: 400;
   }
   h2 {
     text-transform: uppercase;
-    font-size: 24px !important;
+    font-size: 3vh !important;
     font-weight: 400;
     font-family: "Josefin Slab", serif;
   }
@@ -30,7 +30,7 @@
     background-image: url("/img/seccion_invitado.png");
     /* Set a specific height */
     width: 100vw;
-    height: 100vh;
+    height: 100vh!important;
     /* Position and center the image to scale nicely on all screens */
     background-position: center;
     background-repeat: no-repeat;
@@ -89,7 +89,7 @@
     max-width: 100% !important;
   }
   .dress_code {
-    height: 100% !important;
+    height: 100vh !important;
   }
   .avatar img {
     max-width: 160px;
@@ -124,6 +124,22 @@
   .bottom_position.h1{
     margin: 0;
   }
+  .seccion_saveTheDate div :nth-child(1){
+    font-size: 3vh!important;
+  }
+  .seccion_itinerario .logo img {
+  max-width: 40vh!important;
+  }
+  .img_dress_code {
+    width: 32vh!important;
+  }
+ 
+}
+@media only screen and (max-width: 690px) {
+  .seccion_itinerario .logo img{
+    max-width: 72%;
+  }
+
 }
 
 body {
@@ -234,7 +250,7 @@ h2 {
   background-image: url("/img/backgroungLogo.png");
   /* Set a specific height */
   width: 100vw;
-  height: 100vh;
+  height: 250vh;
   /* Position and center the image to scale nicely on all screens */
   background-position: center;
   background-repeat: no-repeat;
@@ -455,7 +471,7 @@ h2 {
   font-family: "Fredericka the Great", cursive;
   display: grid;
   width: 100vw;
-  height: 100vh;
+  height: 150vh;
   /* Position and center the image to scale nicely on all screens */
   background-position: center;
   background-repeat: no-repeat;
@@ -469,7 +485,7 @@ h2 {
 }
 .padrinos_y_mas_container {
   display: grid;
-  gap: 20%;
+  column-gap: 20%;
   grid-template-columns: 50% 50%;
   grid-template-rows: 50% 50%;
   justify-content: center;
@@ -690,3 +706,14 @@ h2 {
   display: grid;
   gap: 24px;
 }
+.seccion_itinerario .logo{
+  padding: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+  }
+  .seccion_itinerario .logo img{
+    /* filter: drop-shadow(-2px 2px 15px rgba(0, 0, 0, 0.7)); */
+    max-width: 82%;
+  }
