@@ -580,6 +580,7 @@ h2 {
   display: flex;
   gap: 45px;
   font-size: 80px;
+  text-shadow: 0 4px 2px rgb(0 0 0 / 60%);
 }
 #cuenta div {
   display: flex;
@@ -695,6 +696,7 @@ h2 {
 }
 .bottom_position{
   bottom: 28%;
+  text-shadow: 0 4px 2px rgb(0 0 0 / 60%);
 }
 .bottom_position h1{
   margin: 0;
