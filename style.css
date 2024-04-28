@@ -416,7 +416,7 @@ h2 {
 .hospedaje{
   font-family: "Great Vibes", cursive;
   display: grid;
-  background-image: url("/img/arco_pink.gif"); /* Set a specific height */
+  background-image: url("/img/arco_pink.webp"); /* Set a specific height */
   width: 100vw;
   height: 100vh;
   /* Position and center the image to scale nicely on all screens */
