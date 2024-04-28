@@ -383,7 +383,7 @@ h2 {
 .banner_20 {
   font-family: "Great Vibes", cursive;
   display: grid;
-  background-image: url("/img/corona_pink.webp"); /* Set a specific height */
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/img/corona_pink.webp);/* Set a specific height */
   width: 100vw;
   height: 100vh;
   /* Position and center the image to scale nicely on all screens */
@@ -398,8 +398,8 @@ h2 {
 .banner_20_container {
   display: flex;
   flex-direction: column;
-  max-width: 60%;
-  font-size: 45px;
+  max-width: 72%;
+  font-size: 4.5vh;
   place-self: center;
 }
 .banner_20_container p:nth-child(1) {
@@ -416,7 +416,7 @@ h2 {
 .hospedaje{
   font-family: "Great Vibes", cursive;
   display: grid;
-  background-image: url("/img/arco_pink.webp"); /* Set a specific height */
+  background-image: url("/img/arco_pink.gif"); /* Set a specific height */
   width: 100vw;
   height: 100vh;
   /* Position and center the image to scale nicely on all screens */
@@ -479,6 +479,7 @@ h2 {
   position: relative;
   text-align: center;
   justify-items: center;
+  gap: 12vh;
 }
 .padrinos_y_mas h1 {
   margin-bottom: 0;
@@ -489,6 +490,7 @@ h2 {
   grid-template-columns: 50% 50%;
   grid-template-rows: 50% 50%;
   justify-content: center;
+  gap: 20px;
 }
 .avatar {
   border-radius: 50%;
@@ -501,8 +503,8 @@ h2 {
   height: 250px;
 }
 .persona p {
-  font-family: "Montserrat", sans-serif;
-  font-size: 34px;
+  font-family: "Fredericka the Great", cursive;  
+  font-size: 22px;
   margin: 0;
 }
 .persona span {
